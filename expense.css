@@ -1,0 +1,48 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #c7e7fd;
+  text-align: center;
+  border: 2px solid black;
+ 
+}
+.credit {
+  background-color: green;
+  font-size: large;
+
+}
+.debit {
+  background-color: red;
+  font-size: large;
+  
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
+  justify-items: left;
+  margin-left: 40%;
+  
+}
+.js-delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  
+}
+.expense-item {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+.js-total-expense{
+  color: rgb(216, 32, 32);
+}
+.expenseColorGreen{
+  color: green;
+}
+.expenseColorRed{
+  color: red;
+}
+

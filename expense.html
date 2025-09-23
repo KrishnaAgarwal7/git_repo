@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <title>Expense Tracker</title>
+  <head>
+  <link rel="stylesheet" href="expense.css">  
+  </head>
+  
+  
+  <body>
+    
+    <h1 style="background-color: rgb(205, 156, 255); padding-inline: 10%;">EXPENSE TRACKER</h1>
+    <div style="display: flex;
+    justify-content: center;">
+    <h1>TOTAL-EXPENSE:₹</h1>
+    <h1 class="js-total-expense"></h1>
+    </div>
+    <div class="grid-container">
+    <div class="amount">
+      <label for="name">Enter Amount:</label>
+      <input type="number" placeholder="Enter Amount in Rupee" class="js-Amount">
+    </div>
+    <div class = "remark">
+      <label for="remark">Enter a remark</label>
+
+      <input type="text" placeholder="Eg:Transport" class="js-Remark">
+    </div>
+      <div class="date">
+
+    <label for="date">Date of Payment</label>
+    <input type = "date" class = "js-Date">
+  </div>
+    
+    </div>
+    <p>
+      <button id="reset" class="js-reset">RESET</button>
+      <button id="d" class="debit"  >DEBITED</button>
+      <button id="c" class="credit" >CREDITED</button>
+    </p>
+    <div class = "html"></div>
+    <script src="expense.js"> </script>
+    </body>
+</html>
