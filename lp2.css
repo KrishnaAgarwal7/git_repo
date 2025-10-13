@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(118, 245, 243);
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  padding-top: 15%;
+}
+.js-yes:hover {
+  background-color: pink;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);  
+  
+}
+.js-no:hover {
+  background-color:red;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6); 
+  
+}
+button {
+  padding: 15px 30px;
+  border-radius: 10px;
+}

@@ -1,0 +1,41 @@
+.js-no {
+  position:absolute;
+  background-color: rgb(236, 113, 113);
+  top: 640px;
+  left: 1010px;
+  
+}
+body{
+  text-align: center;
+  padding-top: 15%;
+  background-color: skyblue;
+  
+ 
+  
+
+}
+button{
+  padding: 15px 30px;
+  border-radius: 10px;            
+}
+.js-yes{
+  background-color: pink;
+  
+}
+#credit-mark::after {
+    /* --- Your Name and Styling --- */
+    content: "Made by Krishna Agarwal"; /* <-- CHANGE THIS TEXT */
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #f9c5c5; /* Light gray, hard to notice */
+    font-weight: normal;
+
+    /* --- Positioning --- */
+    position: fixed; /* Stays on the screen even when you scroll */
+    bottom: 10px;    /* 10px from the bottom */
+    right: 15px;     /* 15px from the right */
+    z-index: 9999;   /* Stays on top of everything */
+
+    /* --- Makes it Unclickable --- */
+    pointer-events: none; /* The mouse passes right through it */
+}
