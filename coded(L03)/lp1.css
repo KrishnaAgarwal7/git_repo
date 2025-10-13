@@ -1,0 +1,24 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  background: rgb(63, 161, 251);
+  background: linear-gradient(
+    142deg,
+    rgba(63, 161, 251, 1) 0%,
+    rgba(252, 70, 168, 1) 100%
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.js-yes:hover {
+  background-color: pink;
+}
+.js-no:hover {
+  background-color:red
+}
+button{
+  padding: 15px 30px;
+  
+}
